@@ -1,3 +1,7 @@
+<?php
+require_once 'class/Functions.php';
+?>
+
 <!DOCTYPE html>
 <!--
 To change this license header, choose License Headers in Project Properties.
