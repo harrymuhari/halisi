@@ -1,5 +1,8 @@
 <?php
 require_once 'class/Functions.php';
+
+$connection = new DBConnection();
+$connection->getConnection();
 ?>
 
 <!DOCTYPE html>
@@ -17,7 +20,7 @@ and open the template in the editor.
         <meta name="author" content="VA">
     </head>
     <body>
-        
+
         <div>
             <h3>Super awesome blog</h3>
         </div>
