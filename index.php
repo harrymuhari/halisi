@@ -10,11 +10,12 @@ and open the template in the editor.
         <title>Halisi - Musings of a Kenyan techie</title>
         <meta name="keywords" content="technology, programming, tutorials, startups, etc.">
         <meta name="description" content="All about the technology ecosystems in and around Kenya">
-        <meta name="auhor" content="VA">
+        <meta name="author" content="VA">
     </head>
     <body>
-        <?php
-        echo 'super awesome blog'
-        ?>
+        
+        <div>
+            <h3>Super awesome blog</h3>
+        </div>
     </body>
 </html>
