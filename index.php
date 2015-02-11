@@ -14,7 +14,7 @@ and open the template in the editor.
     </head>
     <body>
         <?php
-        // put your code here
+        echo 'super awesome blog'
         ?>
     </body>
 </html>
