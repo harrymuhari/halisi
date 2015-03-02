@@ -18,11 +18,15 @@ and open the template in the editor.
         <meta name="keywords" content="technology, programming, tutorials, startups, etc.">
         <meta name="description" content="All about the technology ecosystems in and around Kenya">
         <meta name="author" content="VA">
+        <link rel="stylesheet" href="css/index.css">
     </head>
+
     <body>
 
         <div>
             <h3>Super awesome blog</h3>
         </div>
     </body>
+
+    <script src="js/index.js"></script>
 </html>
