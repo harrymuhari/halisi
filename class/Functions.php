@@ -36,7 +36,7 @@ class Functions {
             mkdir($path, 0777);
         }
 
-        $file_name = $path . DIRECTORY_SEPARATOR . date("Y-m-d") . '.log';
+        $file_name = $path . DIRECTORY_SEPARATOR . $file_name . '-' . date("Y-m-d") . '.log';
         file_put_contents($file_name, date("Y-m-d H:i:s") . " - " . $message . PHP_EOL, FILE_APPEND | LOCK_EX);
     }
 
