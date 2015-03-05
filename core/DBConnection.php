@@ -28,8 +28,8 @@ class DBConnection {
         $db = $config['database'];
 
         try {
-            $con = new PDO("mysql:host=$host;dbname=$db", $username, $password);
-            $functions->log("Connection successful", "DBLOG", "DB_CON");
+            $con = new PDO("mysql:host=$host;dbname=$db", $username, 'password');
+            $functions->log("Connection successful", "DBLOG", "DB_CON_SUCCESS");
             return $con;
         } catch (PDOException $ex) {
             $functions->log($ex->getMessage(), "DBLOG", "DB_CON_EXCEPTION");
