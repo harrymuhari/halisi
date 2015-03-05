@@ -15,7 +15,7 @@ and open the template in the editor.
     <head>
         <meta charset="UTF-8">
         <title>Halisi - Musings of a Kenyan techie</title>
-        <meta name="keywords" content="technology, programming, tutorials, startups, etc.">
+        <meta name="keywords" content="technology, programming, tutorials, startups, java, android, php, html5">
         <meta name="description" content="All about the technology ecosystems in and around Kenya">
         <meta name="author" content="VA">
         <link rel="stylesheet" href="css/index.css">
@@ -23,8 +23,8 @@ and open the template in the editor.
 
     <body>
 
-        <div>
-            <h3>Super awesome blog</h3>
+        <div id="container" class="container-fluid">
+            <h3>Paragraph!</h3>
         </div>
     </body>
 
