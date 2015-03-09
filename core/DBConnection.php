@@ -28,7 +28,7 @@ class DBConnection {
         $db = $config['database'];
 
         try {
-            $con = new PDO("mysql:host=$host;dbname=$db", $username, 'password');
+            $con = new PDO("mysql:host=$host;dbname=$db", $username, $password);
             $functions->log("Connection successful", "DBLOG", "DB_CON_SUCCESS");
             return $con;
         } catch (PDOException $ex) {
