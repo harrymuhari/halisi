@@ -32,7 +32,6 @@ class Functions {
         $folder_name = $folder_name . '-' . date("Y-m-d") . DIRECTORY_SEPARATOR;
         $path = $location . $folder_name;
         if (!is_dir($path)) {
-            echo $path;
             mkdir($path, 0777);
         }
 
