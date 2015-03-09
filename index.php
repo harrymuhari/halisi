@@ -24,7 +24,32 @@ and open the template in the editor.
     <body>
 
         <div id="container" class="container-fluid">
-            <h3>Paragraph!</h3>
+            <div id="header">
+                <div id="top-branding">
+                    <h3>Halisi</h3>
+                    <p>musings of a Kenyan techie</p>
+                </div>
+                <div id="top-users">
+                    <p>Welcome guest</p>
+                    <a href="#">Login</a>
+                    <a href="#">Register</a>
+                </div>
+                <div id="nav">
+                    <ul>
+                        <li>Home</li>
+                        <li>Our Work</li>
+                        <li>About</li>
+                    </ul>
+                    <form id="nav-search" method="POST" action="">
+                        <input type="text" name="search" placeholder="Search...">
+                    </form>
+                </div>
+            </div>
+            <div id="banner">
+
+            </div>
+            <div id="content"></div>
+            <div id="footer"></div>
         </div>
     </body>
 
