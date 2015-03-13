@@ -48,7 +48,14 @@ and open the template in the editor.
             <div id="banner">
 
             </div>
-            <div id="content"></div>
+            <div id="content">
+                <div id="left-content">
+                    <!-- articles -->
+                </div>
+                <div id="right-content">
+                    <!-- promotions -->
+                </div>
+            </div>
             <div id="footer"></div>
         </div>
     </body>
