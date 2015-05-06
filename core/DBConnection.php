@@ -19,6 +19,8 @@ class DBConnection {
      * @return object $con the PDO connection instance
      */
     public function getConnection() {
+        $className = 'DBConnection';
+        $methodName = 'getConnection()';
         $functions = new Functions();
 
         $config = parse_ini_file("config.ini");
@@ -29,10 +31,10 @@ class DBConnection {
 
         try {
             $con = new PDO("mysql:host=$host;dbname=$db", $username, $password);
-            $functions->log("Connection successful", "DBLOG", "DB_CON_SUCCESS");
+            $functions->log($className, $methodName, "Connection successful", "DBLOG", "DB_CON_SUCCESS");
             return $con;
         } catch (PDOException $ex) {
-            $functions->log($ex->getMessage(), "DBLOG", "DB_CON_EXCEPTION");
+            $functions->log($className, $methodName, $ex->getMessage(), "DBLOG", "DB_CON_EXCEPTION");
         }
     }
 
